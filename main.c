@@ -54,7 +54,7 @@ int main(){
     inicializarTabela(tabela);
 
     do{
-        printf("\n\t0 - Sair\n\t1 - Inserir\n\t2 - Buscar\n\t3 -Imprimir\n");
+        printf("\n0 - Sair\n1 - Inserir\t2 - Buscar\t3 -Imprimir\n");
         scanf("%d", &opcao);
 
         switch(opcao){
